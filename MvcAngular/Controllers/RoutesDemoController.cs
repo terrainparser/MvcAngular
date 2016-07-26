@@ -22,6 +22,7 @@ namespace MvcAngular.Controllers
             return View();
         }
 
+        [Authorize]
         public ActionResult Three()
         {
             return View();

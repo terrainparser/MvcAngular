@@ -1,0 +1,10 @@
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

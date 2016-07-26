@@ -126,6 +126,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RoutesDemoController.cs" />
     <Compile Include="Global.asax.cs">
@@ -193,10 +194,13 @@
     <Content Include="Scripts\Angular\angular-route.js" />
     <Content Include="Scripts\Angular\angular.js" />
     <Content Include="Scripts\Controllers\LandingPageController.js" />
+    <Content Include="Scripts\Factories\AuthHttpResponseInterceptor.js" />
     <Content Include="Scripts\MvcAngular.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Views\RoutesDemo\One.html" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -224,6 +228,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\RoutesDemo\Three.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Account\Login.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

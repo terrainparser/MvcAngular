@@ -23,3 +23,28 @@ C:\Users\harish.banda\Documents\Visual Studio 2012\Projects\MvcAngular\MvcAngula
 C:\Users\harish.banda\Documents\Visual Studio 2012\Projects\MvcAngular\MvcAngular\obj\Debug\MvcAngular.csprojResolveAssemblyReference.cache
 C:\Users\harish.banda\Documents\Visual Studio 2012\Projects\MvcAngular\MvcAngular\obj\Debug\MvcAngular.dll
 C:\Users\harish.banda\Documents\Visual Studio 2012\Projects\MvcAngular\MvcAngular\obj\Debug\MvcAngular.pdb
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\MvcAngular.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\MvcAngular.pdb
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\Antlr3.Runtime.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\EntityFramework.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\Newtonsoft.Json.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.Mvc.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.Optimization.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.Providers.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.Razor.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.WebPages.Deployment.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.WebPages.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.WebPages.Razor.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\WebGrease.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\EntityFramework.xml
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\Newtonsoft.Json.xml
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.Mvc.xml
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.Razor.xml
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.WebPages.xml
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.WebPages.Deployment.xml
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.WebPages.Razor.xml
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\obj\Debug\MvcAngular.csprojResolveAssemblyReference.cache
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\obj\Debug\MvcAngular.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\obj\Debug\MvcAngular.pdb

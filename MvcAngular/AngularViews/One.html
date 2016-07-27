@@ -4,20 +4,21 @@
     <title>Registration</title>
 </head>
 <body>
-    <div class="form-inline">
+    <form class="form-inline">
         <div class="form-group">
             <label >First Name</label>
-            <input type="text" id="txtFirstName" />
+            <input type="text" id="txtFirstName" ng-model="user.firstName"/>
         </div>
         <div class="form-group">
             <label >Last Name</label>
-            <input type="text" id="txtLastName" />
+            <input type="text" id="txtLastName" ng-model="user.lastName" />
         </div>
         <div class="form-group">
             <label >Email Id</label>
-            <input type="text" id="txtEmailId" />
+            <input type="text" id="txtEmailId" ng-model="user.emailId" />
         </div>
-        <input class="btn btn-primary" type="button" value="sign up"/>
-    </div>
+
+        <input class="btn btn-primary" type="submit" value="sign up" ng-click="user.registerUser()"/>
+    </form>
 </body>
 </html>

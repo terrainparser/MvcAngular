@@ -1,4 +1,9 @@
 ﻿var UserRegistrationController = function ($scope) {
-    $scope.greeting = 'Hola';
+    $scope.user = {
+        firstName: '', lastName: '', emailId: ''
+    };
+    $scope.registerUser = function () {
+        $http.post("/user/registerUser",$scope.user)
+    };
 };
 UserRegistrationController.$inject = ['$scope'];

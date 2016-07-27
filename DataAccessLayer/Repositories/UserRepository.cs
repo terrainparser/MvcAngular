@@ -19,5 +19,15 @@ namespace DataAccessLayer.Repositories
             }
 
         }
+
+        public List<User> GetUsers() 
+        {
+            List<User> users= null;
+            using(var context = new MvcAngularContext())
+            {
+                users=context.Users.ToList();
+            }
+            return users;
+        }
     }
 }

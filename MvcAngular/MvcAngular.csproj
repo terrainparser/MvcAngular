@@ -135,6 +135,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -194,10 +195,11 @@
     <Content Include="Scripts\Angular\angular-route.js" />
     <Content Include="Scripts\Angular\angular.js" />
     <Content Include="Scripts\Controllers\LandingPageController.js" />
+    <Content Include="Scripts\Controllers\UserRegistrationController.js" />
     <Content Include="Scripts\Factories\AuthHttpResponseInterceptor.js" />
     <Content Include="Scripts\MvcAngular.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Views\RoutesDemo\One.html" />
+    <Content Include="AngularViews\One.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

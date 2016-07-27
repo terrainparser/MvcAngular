@@ -39,6 +39,8 @@ namespace MvcAngular
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
 
+            bundles.Add(new StyleBundle("~/Content/bootstrap").Include("~/Content/bootstrap.css"));
+
             bundles.Add(new ScriptBundle("~/bundles/MvcAngular")
                     .IncludeDirectory("~/Scripts/Controllers", "*.js").IncludeDirectory("~/Scripts/Factories", "*.js").Include("~/Scripts/MvcAngular.js"));
                    

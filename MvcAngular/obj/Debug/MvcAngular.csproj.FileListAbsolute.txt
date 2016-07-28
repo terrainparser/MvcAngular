@@ -48,3 +48,5 @@ C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\System.Web.WebP
 C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\obj\Debug\MvcAngular.csprojResolveAssemblyReference.cache
 C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\obj\Debug\MvcAngular.dll
 C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\obj\Debug\MvcAngular.pdb
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\DataAccessLayer.dll
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\MvcAngular\bin\DataAccessLayer.pdb

@@ -16,6 +16,8 @@ namespace DataAccessLayer.Models
 
         public string LastName { get; set; }
 
+        public string Email { get; set; }
+
         public Review Review { get; set; }
     }
 

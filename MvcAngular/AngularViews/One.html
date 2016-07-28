@@ -4,7 +4,7 @@
     <title>Registration</title>
 </head>
 <body>
-    <form class="form-inline">
+    <form class="form-inline" ng-controller="UserRegistrationController">
         <div class="form-group">
             <label >First Name</label>
             <input type="text" id="txtFirstName" ng-model="user.firstName"/>
@@ -15,10 +15,10 @@
         </div>
         <div class="form-group">
             <label >Email Id</label>
-            <input type="text" id="txtEmailId" ng-model="user.emailId" />
+            <input type="email" id="txtEmailId" ng-model="user.emailId" />
         </div>
 
-        <input class="btn btn-primary" type="submit" value="sign up" ng-click="user.registerUser()"/>
+        <input class="btn btn-primary" type="submit" value="sign up" ng-click="registerUser()"/>
     </form>
 </body>
 </html>

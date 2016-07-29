@@ -7,3 +7,4 @@ C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\bin\Debug\Enti
 C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\harish.banda\Documents\GitHub\MvcAngular\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache

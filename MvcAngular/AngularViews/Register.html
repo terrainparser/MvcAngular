@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <form class="form-inline" ng-controller="UserRegistrationController">
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" id="txtFirstName" ng-model="user.firstName" />
+            <!--</div>-->
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" id="txtLastName" ng-model="user.lastName" />
+            </div>
+            <div class="form-group">
+                <label>Email Id</label>
+                <input type="email" id="txtEmailId" ng-model="user.emailId" />
+            </div>
+
+            <input class="btn btn-primary" type="submit" value="sign up" ng-click="registerUser()" />
+    </form>
+</body>
+</html>

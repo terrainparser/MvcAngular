@@ -12,7 +12,7 @@ namespace Tests.DataAccessLayer
         public void TestInsert()
         {
             var userRepository = new UserRepository();
-            userRepository.AddUser(new User { FirstName = "H", LastName = "B", Email = "h.b@gmail.com" });
+            userRepository.AddUser(new User { FirstName = "H", LastName = "B", Email = "h.b@gmail.com", Password="abcd" });
 
         }
     }

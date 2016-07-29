@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +14,8 @@ namespace DataAccessLayer.Models
         {
 
         }
+        [Key]
+        [Column(Order = 0)]
         public int UserId { get; set; }
 
         public string FirstName { get; set; }
@@ -20,7 +24,7 @@ namespace DataAccessLayer.Models
 
         public string Email { get; set; }
 
-       // public Review Review { get; set; }
+        // public Review Review { get; set; }
     }
 
     public class Review
@@ -29,6 +33,7 @@ namespace DataAccessLayer.Models
         {
 
         }
+        [Key]
         public int ReviewId { get; set; }
 
         public int Rating { get; set; }

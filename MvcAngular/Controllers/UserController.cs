@@ -21,10 +21,15 @@ namespace MvcAngular.Controllers
         public JsonResult RegisterUser(User user)
         {
             UserRepository userRepository = new UserRepository();
-            
-                userRepository.AddUser(new dataModels.User { FirstName = user.firstName, LastName = user.lastName, Email = user.emailId });
-            
+
+            userRepository.AddUser(new dataModels.User { FirstName = user.FirstName, LastName = user.LastName, Email = user.EmailId });
             return new JsonResult();
+        }
+
+        public bool SignIn(User user)
+        {
+            UserRepository userRepository = new UserRepository();
+            return userRepository.ValidateUser(new dataModels.User { UserId = user.UserId, Password = user.Password });
         }
 
     }

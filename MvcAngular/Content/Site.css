@@ -59,3 +59,10 @@ textarea {
 .validation-summary-valid {
     display: none;
 }
+
+.menuBar {
+    height:200px;
+    background-color:bisque;
+    border:thin;
+}
+

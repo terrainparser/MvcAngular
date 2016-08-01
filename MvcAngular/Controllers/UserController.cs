@@ -26,10 +26,11 @@ namespace MvcAngular.Controllers
             return new JsonResult();
         }
 
-        public bool SignIn(User user)
+        public JsonResult SignIn(User user)
         {
             UserRepository userRepository = new UserRepository();
-            return userRepository.ValidateUser(new dataModels.User { UserId = user.UserId, Password = user.Password });
+            userRepository.ValidateUser(new dataModels.User { UserId = user.UserId, Password = user.Password });
+            return new JsonResult();
         }
 
     }

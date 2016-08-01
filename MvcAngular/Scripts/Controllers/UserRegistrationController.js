@@ -8,9 +8,9 @@
         $http.post("/user/registerUser", $scope.user, function (data) { console.log(data); });
     };
 
-    $scope.UserValidated = function ()
-    {
-        return $http.get("/user/SignIn", $scope.user, function (data) { console.log(data); });
-    }
+    $scope.SignIn = function () {
+        console.log($scope.user);
+        $http.post("/user/SignIn", $scope.user, function (data) { console.log(data); });
+    };
 };
 UserRegistrationController.$inject = ['$scope','$http'];

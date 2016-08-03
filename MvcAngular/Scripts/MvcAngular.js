@@ -5,7 +5,7 @@ MvcAngular.controller('LandingPageController', LandingPageController);
 MvcAngular.controller('UserRegistrationController', UserRegistrationController);
 MvcAngular.factory('AuthHttpResponseInterceptor', AuthHttpResponseInterceptor);
 
-var configFunction = function ($routeProvider, $httpProvider) {
+var configFunction = function ($routeProvider, $httpProvider, $locationProvider) {
     //debugger;
     $routeProvider.
         when('/', {
@@ -24,10 +24,17 @@ var configFunction = function ($routeProvider, $httpProvider) {
             //}).when('/login', {
             //    templateUrl: '/Account/Login',
             //    controller: LoginController
-        }).when('/register', { templateUrl: '/Angularviews/register.html' });
+        }).when('/register', {
+            templateUrl: '/Angularviews/register.html'
+        }).when('/home', {
+            templateUrl: '/AngularViews/home.html'
+        });
+    //   .controller("routesDemoController", function ($scope) {
+    //    $scope.Ram = "Hari";
+    //});
     $httpProvider.interceptors.push('AuthHttpResponseInterceptor');
 }
-configFunction.$inject = ['$routeProvider', '$httpProvider'];
+configFunction.$inject = ['$routeProvider', '$httpProvider', '$locationProvider'];
 
 MvcAngular.config(configFunction);
 

@@ -35,7 +35,7 @@ namespace DataAccessLayer.Repositories
             using (var context = new MvcAngularContext())
             {
                 var matchedUser=context.Users.FirstOrDefault(usr => usr.UserId == currentUser.UserId && usr.Password == currentUser.Password);
-                if (matchedUser == null)
+                if (matchedUser != null)
                     userValidated = true;
             }
             return userValidated;

@@ -1,6 +1,6 @@
 ﻿var UserRegistrationController = function ($scope, $http) {
     $scope.user = {
-        FirstName: '', LastName: '', EmailId: '', Password:'', UserId:''
+        FirstName: '', LastName: '', EmailId: '', Password: '', UserId: ''
     };
     $scope.registerUser = function () {
         //alert("came here");
@@ -10,7 +10,12 @@
 
     $scope.SignIn = function () {
         console.log($scope.user);
-        $http.post("/user/SignIn", $scope.user, function (data) { console.log(data); });
+        $http.get("/user/SignIn", $scope.user, function (response) {
+            console.log(response);
+            if (response == "true") {
+                return $location.path('/home');
+            }
+        });
     };
 };
-UserRegistrationController.$inject = ['$scope','$http'];
+UserRegistrationController.$inject = ['$scope', '$http'];

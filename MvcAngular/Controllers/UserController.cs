@@ -22,7 +22,14 @@ namespace MvcAngular.Controllers
         {
             UserRepository userRepository = new UserRepository();
 
-            userRepository.AddUser(new dataModels.User { FirstName = user.FirstName, LastName = user.LastName, Email = user.EmailId });
+            userRepository.AddUser(new dataModels.User
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.EmailId,
+                UserId = user.UserId,
+                Password = user.Password
+            });
             return new JsonResult();
         }
 

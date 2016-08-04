@@ -1,6 +1,6 @@
 ﻿var MvcAngular = angular.module('MvcAngular', ['ngRoute']);
 
-MvcAngular.controller('LandingPageController', LandingPageController);
+//MvcAngular.controller('LandingPageController', LandingPageController);
 //MvcAngular.controller('LoginController', LoginController);
 MvcAngular.controller('UserRegistrationController', UserRegistrationController);
 MvcAngular.factory('AuthHttpResponseInterceptor', AuthHttpResponseInterceptor);
@@ -9,12 +9,14 @@ var configFunction = function ($routeProvider, $httpProvider, $locationProvider)
     //debugger;
     $routeProvider.
         when('/', {
-            templateUrl: '/Angularviews/signIn.html',
-            //controller:'routesDemo'
+            templateUrl: '/Angularviews/signIn.html'
+            //controller: 'routesDemoController',
+            //controllerAs: 'rtDmCont'
         }).
         when('/routeOne', {
             templateUrl: 'routesDemo/one',
-            //controller:'routesDemo'
+            controller: 'routesDemo2Controller',
+            controllerAs:'rctCont'
         }).when('/routeTwo/:donuts', {
             templateUrl: function (params) { return '/routesDemo/two?donuts=' + params.donuts; },
             //controller: 'routesDemo'
@@ -29,12 +31,11 @@ var configFunction = function ($routeProvider, $httpProvider, $locationProvider)
         }).when('/home', {
             templateUrl: '/AngularViews/home.html'
         });
-    //   .controller("routesDemoController", function ($scope) {
-    //    $scope.Ram = "Hari";
-    //});
-    $httpProvider.interceptors.push('AuthHttpResponseInterceptor');
+         
+$httpProvider.interceptors.push('AuthHttpResponseInterceptor');
 }
 configFunction.$inject = ['$routeProvider', '$httpProvider', '$locationProvider'];
 
-MvcAngular.config(configFunction);
+MvcAngular.config(configFunction).controller("routesDemo2Controller", function ($scope) {
+    $scope.Ram = "Hari";});
 

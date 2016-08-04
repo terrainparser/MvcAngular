@@ -1,4 +1,4 @@
-﻿var UserRegistrationController = function ($scope, $http) {
+﻿var UserRegistrationController = function ($scope, $http, $location) {
     $scope.user = {
         FirstName: '', LastName: '', EmailId: '', Password: '', UserId: ''
     };
@@ -10,12 +10,13 @@
 
     $scope.SignIn = function () {
         console.log($scope.user);
-        $http.get("/user/SignIn", $scope.user, function (response) {
-            console.log(response);
-            if (response == "true") {
+        $http.get("/user/SignIn", {params:$scope.user}).then(function (response) {
+            alert(response.data);
+            if (response.data) {
                 return $location.path('/home');
             }
         });
+             
     };
 };
-UserRegistrationController.$inject = ['$scope', '$http'];
+UserRegistrationController.$inject = ['$scope', '$http', '$location'];

@@ -33,11 +33,15 @@ namespace MvcAngular.Controllers
             return new JsonResult();
         }
 
+        //public JsonResult SignIn(string username, string password)
         public JsonResult SignIn(User user)
         {
+            //User user = new User();
+            //user.UserId=username;
+            //user.Password = password;
             UserRepository userRepository = new UserRepository();
-            userRepository.ValidateUser(new dataModels.User { UserId = user.UserId, Password = user.Password });
-            return new JsonResult();
+            var result= userRepository.ValidateUser(new dataModels.User { UserId = user.UserId, Password = user.Password });
+            return Json(result,JsonRequestBehavior.AllowGet);
         }
 
     }

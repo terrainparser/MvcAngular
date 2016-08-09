@@ -10,8 +10,7 @@
 
     $scope.SignIn = function () {
         console.log($scope.user);
-        $http.get("/user/SignIn", {params:$scope.user}).then(function (response) {
-            alert(response.data);
+        $http.get("user/SignIn", {params:$scope.user}).then(function (response) {
             if (response.data) {
                 return $location.path('/home');
             }

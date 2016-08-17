@@ -4,6 +4,14 @@
 //MvcAngular.controller('LoginController', LoginController);
 MvcAngular.controller('UserRegistrationController', UserRegistrationController);
 MvcAngular.factory('AuthHttpResponseInterceptor', AuthHttpResponseInterceptor);
+MvcAngular.directive('register', function () {
+    return {
+        restrict: 'E',
+        scope: {
+            customerInfo:'=info'
+        }, templateUrl: '/Angularviews/register.html'
+    };
+});
 
 var configFunction = function ($routeProvider, $httpProvider, $locationProvider) {
     //debugger;
@@ -36,6 +44,6 @@ $httpProvider.interceptors.push('AuthHttpResponseInterceptor');
 }
 configFunction.$inject = ['$routeProvider', '$httpProvider', '$locationProvider'];
 
-MvcAngular.config(configFunction).controller("routesDemo2Controller", function ($scope) {
-    $scope.Ram = "Hari";});
+MvcAngular.config(configFunction);//.controller("routesDemo2Controller", function ($scope) {
+//    $scope.Ram = "Hari";});
 

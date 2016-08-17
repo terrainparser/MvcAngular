@@ -143,6 +143,7 @@
   <ItemGroup>
     <Content Include="AngularViews\Home.html" />
     <Content Include="AngularViews\Register.html" />
+    <Content Include="AngularViews\Templates\RegisterTemplate.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
